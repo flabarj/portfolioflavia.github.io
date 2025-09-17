@@ -1,0 +1,100 @@
+*{ box-sizing:border-box; }
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#222;
+  background:#f0f3f9;
+  line-height:1.5;
+}
+.container{ width:96%; max-width:1100px; min-width:980px; }
+
+.topbar{ background:#3d8bb5; color:#fff; padding:10px 0; border-bottom:1px solid #2a6685; }
+.brand{ float:left; }
+.logo{ height:28px; display:block; }
+.topnav{ float:left; margin-left:18px; line-height:28px; }
+.topnav a{ color:#eaf6ff; text-decoration:none; margin-right:18px; font-size:14px; }
+.topnav a:hover{ text-decoration:underline; }
+
+.layout{ padding:20px 0 30px; }
+.col-esq{ width:220px; float:left; }
+.col-dir{ width:260px; float:right; }
+.col-centro{ margin:0 280px 0 240px; }
+.clear{ clear:both; }
+
+.box{
+  background:#fff; border:1px solid #dde3ea; border-radius:8px;
+  padding:14px; margin-bottom:14px;
+}
+.box h2{ margin:0 0 10px; color:#2a6685; font-size:18px; }
+
+.nota{ color:#6b7280; font-size:12px; }
+
+.perfil-card{ background:#fff; border:1px solid #dde3ea; border-radius:8px; padding:14px; }
+.perfil-foto{ width:100%; height:auto; border-radius:8px; border:1px solid #e5e7eb; }
+.perfil-nome{ margin:10px 0 2px; font-size:18px; }
+.perfil-resumo{ margin:0 0 10px; color:#6b7280; font-size:14px; }
+
+.selinhos{ margin:6px 0 12px; }
+.selinho{
+  display:inline-block; padding:6px 8px; margin-right:6px;
+  background:#eef6fa; border:1px solid #d7e6f0; border-radius:20px; font-size:12px;
+}
+.selinho img{ width:14px; height:14px; vertical-align:text-bottom; margin-right:4px; }
+
+.sidenav{ margin-top:8px; }
+.sidenav a{
+  display:block; text-decoration:none; color:#1f4f66;
+  padding:8px 10px; border-radius:6px; background:#eef6fa; border:1px solid #d7e6f0;
+  font-size:14px; margin-bottom:6px;
+}
+.sidenav a:hover{ background:#e3f2f9; }
+
+.thumbs{ font-size:0; }
+.thumb{
+  display:inline-block; width:31%; margin:1%; vertical-align:top;
+  text-decoration:none; color:#222; text-align:center;
+}
+.thumb img{
+  width:100%; height:auto; border:1px solid #e5e7eb; border-radius:4px; display:block;
+}
+.thumb span{ display:block; font-size:12px; margin-top:4px; }
+
+.orkut{ width:100%; border-collapse:collapse; font-size:14px; }
+.orkut td{ border:1px solid #d6e0ec; padding:12px 14px; }
+.orkut tr.alt td{ background:#f7fbff; }
+.orkut td.label{ width:220px; color:#5a6a7a; text-align:right; padding-right:20px; }
+
+.campo{ margin-bottom:12px; }
+.campo label{ display:block; margin-bottom:6px; }
+.campo input[type="text"], .campo input[type="email"], .campo textarea{
+  width:100%; padding:10px 12px; border:1px solid #e5e7eb; border-radius:6px; font:inherit;
+}
+.grupo{ border:1px solid #e5e7eb; border-radius:6px; padding:10px 12px; }
+.btn{ background:#1f4f66; color:#fff; border:none; padding:10px 14px; border-radius:6px; cursor:pointer; }
+.btn:hover{ opacity:.92; }
+
+.rodape{ border-top:1px solid #e5e7eb; padding:16px 0 24px; color:#6b7280; font-size:14px; }
+.rodape a{ color:#1f4f66; text-decoration:none; }
+.rodape a:hover{ text-decoration:underline; }
+
+#topo{}
+
+.login-wrapper{
+  background:#fff; border:1px solid #dde3ea; border-radius:8px; padding:16px;
+  width:320px; max-width:90%; margin:60px auto;
+}
+.login-wrapper h1{ margin:0 0 12px; font-size:20px; color:#2a6685; }
+.login-wrapper label{ display:block; margin:10px 0 6px; }
+.login-wrapper input{
+  width:100%; padding:10px 12px; border:1px solid #e5e7eb; border-radius:6px; font:inherit;
+}
+.login-wrapper .btn{ width:100%; margin-top:12px; }
+
+.contatos{ text-align:center; }
+.social-item{ display:inline-block; text-decoration:none; color:#1f4f66; }
+.social-item img{ width:32px; height:32px; display:block; margin:0 auto 6px; }
+.social-item span{ font-size:12px; }
+
+.midia{ display:block; margin:0 auto; border:1px solid #e5e7eb; border-radius:6px; }
+
+.mapa{ display:block; margin:0 auto; border:1px solid #e5e7eb; border-radius:6px; }
